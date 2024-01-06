@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/r_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_addsubjects"
+            android:icon="@drawable/r_l_book"
+            android:title="Add Subjects" />
+
+        <item
+            android:id="@+id/nav_maths"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Mathematics" />
+
+        <item
+            android:id="@+id/nav_bio"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Biology" />
+
+        <item
+            android:id="@+id/nav_phy"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Physics" />
+
+        <item
+            android:id="@+id/nav_chem"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Chemistry" />
+
+
+    </group>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/r_mobile"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

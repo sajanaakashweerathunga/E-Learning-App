@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mynew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MYNEW">
+        <activity android:name=".A_ScoreActivity"></activity>
+        <activity android:name=".A_Questions" />
+        <activity android:name=".A_MathsActivity" />
+        <activity android:name=".A_MainActivity" />
+        <activity android:name=".A_ChemiActivity" />
+        <activity android:name=".A_CategoryActivity" />
+        <activity android:name=".A_BioActivity" />
+        <activity android:name=".R_phyguide" />
+        <activity android:name=".R_mathsguide" />
+        <activity android:name=".R_chemguide" />
+        <activity android:name=".R_bioguide" />
+        <activity android:name=".DevelopmentTeam" />
+        <activity android:name=".R_physub" />
+        <activity android:name=".R_mathssub" />
+        <activity android:name=".R_chemsub" />
+        <activity android:name=".R_biosub" />
+        <activity android:name=".R_allretrive" />
+        <activity android:name=".R_MainActivity" />
+        <activity android:name=".A_back_NewsActivity" />
+        <activity android:name=".A_back_AddNews" />
+        <activity android:name=".A_back_BiologyActivity" />
+        <activity android:name=".A_back_AddBioActivity" />
+        <activity android:name=".A_back_MathsActivity" />
+        <activity android:name=".A_back_AddMathsActivity" />
+        <activity android:name=".A_back_ChemActivity" />
+        <activity android:name=".A_back_AddChemActivity" />
+        <activity android:name=".A_back_AddActivity" />
+        <activity android:name=".A_back_QuestionsActivity" />
+        <activity android:name=".A_back_CategoryActivity" />
+        <activity android:name=".S_backend_MainActivity" />
+        <activity android:name=".S_backend_AddNewBook" />
+        <activity android:name=".I_MathTable" />
+        <activity android:name=".I_AddActivity" />
+        <activity android:name=".I_MainActivity" />
+        <activity android:name=".R_back_Calculator" />
+        <activity android:name=".R_back_AddActivity" />
+        <activity android:name=".R_back_MainActivity" />
+        <activity android:name=".R_back_AdminHomePage" />
+        <activity android:name=".S_BookDetails" />
+        <activity android:name=".A_NewsActivity" />
+        <activity android:name=".A_back_AdminPage" />
+        <activity android:name=".S_BookStore" />
+        <activity android:name=".S_HomePage" />
+        <activity android:name=".S_MainActivity2" />
+        <activity android:name=".S_EditProfile" />
+        <activity android:name=".S_UserProfile" />
+        <activity android:name=".S_LoginPage" />
+        <activity android:name=".S_RegisterPage" />
+        <activity android:name=".S_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
